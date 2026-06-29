@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post.njk",
+    "permalink": "services/{{ title | slug }}/index.html",
+    "class": "services",
+    "tags": [
+      "services"
+    ]
+  }
+  
