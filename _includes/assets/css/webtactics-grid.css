@@ -252,12 +252,12 @@ padding:0;}
   }
   
   .content.home {
-    margin: 8rem auto;
+    margin: 12rem auto;
     padding: 0;
     z-index: 2;
     width: calc(100vw - 10em);
-    max-width: 800px;
-    min-height: 200px;
+    max-width: 1000px;
+    min-height: 400px;
     }
 
   .quote.content {
