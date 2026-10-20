@@ -1,9 +1,0 @@
-{
-    "layout": "layouts/post.njk",
-    "permalink": "testimonials/{{ title | slug }}/index.html",
-    "class": "testimonials",
-    "tags": [
-      "testimonials"
-    ]
-  }
-  
