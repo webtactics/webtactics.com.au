@@ -5,18 +5,16 @@
 
 
 {% block content %} 
- <div class="caption-text"><h1><span>{{ title }}</span></h1></div>
-<main class="content">  
+<main class="content"> 
+<div class="caption-text"><h1><span>{{ title }}</span></h1></div> 
  <div class="grid-2-columns-2x1">
 
- <div class="detailwrapper">
+ <div class="textwrapper">
 {{ layoutContent | safe }}
-{% include "components/global/calltoaction.html" %}
 </div>
 <div class="sidebarwrapper">
 <aside>
-<h3>Practice Areas:</h3>
-{% set postslist = collections.services | reverse %}
+{% set postslist = collections.testimonials %}
 {% include "components/postslist-sidebar.njk" %}
 </aside>
 </div>

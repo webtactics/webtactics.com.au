@@ -1,26 +1,29 @@
 ---
 layout: layouts/default.njk
-title: Contact PrestigePro Property Services
+title: Contact Third Avenue Consulting
 class: contact
-description: For more information about our services or to schedule a consultation, please call on tel:0427892240 or email prestigepro2428@gmail.com
+description: How to contact James Taylor Bathurst Solictor
 section: contact
-date: 2024-03-11
+date: 2023-07-20
 metadata:
-  title: 
+  title: Criminal and Family Law Lawyer Bathurst NSW
 permalink: /contact/
 eleventyNavigation:
   key: Contact
-  order: 4
+  order: 5
 ---
 
-<p>For more information about our services or to schedule a consultation, please contact us at:</p>
-        <p>
-            Phone: <a href="tel:0427892240" title="Call PrestigePro Property Services" alt="Call PrestigePro Property Services">0427 892 240</a><br>
-           Email: <a href="mailto:prestigepro2428@gmail.com" title="Email PrestigePro Property Services" alt="Email PrestigePro Property Services">prestigepro2428@gmail.com</a><br>
-            Website: <a href="https://prestigepropropertyservices.com.au" title="Website of PrestigePro Property Services" alt="Website of PrestigePro Property Services">prestigepropropertyservices.com.au</a>
-        </p>
+
+<h2>ROCHELLE BURBURY</h2>
+
+<p><strong>Third Avenue Consulting</strong><br>
+M: <a title="Call Third Avenue Consulting" alt="Call Third Avenue Consulting" href="tel:+61408774577">0408 774 577</a><br>
+E: <a title="Email Rochelle@thirdavenue.com.au" alt="Email Rochelle@thirdavenue.com.au" href="mailto:Rochelle@thirdavenue.com.au">Rochelle@thirdavenue.com.au</a></p>
 
 
-
-
+<div class="contentsocialwrapper">
+<div class="contentsocialwrapper">
+{% include "components/menu-social.njk" %}
+</div>
+</div>
 

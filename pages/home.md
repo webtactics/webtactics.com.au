@@ -1,33 +1,27 @@
 ---
 layout: layouts/home.njk
-title: PrestigePro Property Services
-subtitle: PrestigePro Property Services
+title: Third Avenue Consulting
+subtitle: Third Avenue Consulting is a specialist, independent Public Relations firm
 class: home
-date: 2024-03-11
-description: PrestigePro is a local provider of comprehensive property management services tailored to meet individual needs for private property owners.
+date: 2023-07-20
+description: Third Avenue Consulting is a specialist, independent Public Relations firm established by Rochelle Burbury, a former Australian Financial Review editor, who has more than 25 years experience as a journalist, high-level PR practitioner and media trainer.
 metadata:
-  title: PrestigePro Property Services
+  title: Specialist, independent public relations
 permalink: /
 eleventyNavigation:
   key: Home
   order: 0
 ---
 
+## Third Avenue Consulting is a specialist, independent Public Relations firm established by Rochelle Burbury, a former Australian Financial Review editor, who has more than 25 years experience as a journalist, high-level PR practitioner and media trainer. ##
 
+Third Avenue Consulting specialises in corporate and business-to-business PR, media relations and reputation management. Our services include strategy, issues management, advice and counsel, key messaging, media relations, writing and editing.
 
+We believe all effective PR should start with a strategy and deliver on it. Pro-activity is at the core of everything we do.
 
+Third Avenue Consulting currently represents a range of clients in the media, marketing, digital and research services sectors.
 
-## PrestigePro is a local provider of comprehensive property management services tailored to meet individual needs for private property owners. ##
-We have a commitment to excellence and a focus on maximising the value of real estate investments. 
-
-PrestigePro simplify property maintenance by providing professional, reliable, localised services to maintain your property value from newly completed construction stage to restoring its former glory. 
-
-**As a point of difference, we offer tailored subscriptions for a seamless service that can be set and forget or adjusted to seasonal requirements.**
-
-
-
-
-
+Third Avenue Consulting also offers media training and key message development, conducted by former journalist and editor Rochelle Burbury, through <a href="/media-training" title="Media Training" alt="Media Training">Third Avenue Media Training</a>.
 
 
 

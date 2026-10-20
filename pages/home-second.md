@@ -1,21 +1,13 @@
 
 
-
-<figure class="imageright img250 hideforsmall"><img title="PrestigePro Property Services" src="https://ik.imagekit.io/webtactics/jamestaylor/tr:w-250,h-250/police-600x440_RhPEtvR1R.jpg?updatedAt=1691292961121" alt="PrestigePro Property Services" width="400px" height="auto">
-<figcaption>More than 30 years experiencea</figcaption>
-</figure>
-
-<p><em>“Being contacted by the police about a criminal offence, attending the police station, receiving court attendance notices for criminal and driving offences or any other involvement in legal matters can be a very concerning, stressful and worrying experience.</em></p>
-
-<p><em>From my past experience in representing clients, I understand client’s concerns and what is at stake and most importantly what needs to be done to provide clients with the best possible representation. .</em></p>
-
-<p><em>I pride myself and take great satisfaction from making sure that my clients obtain the best possible results in all matters.”</em></p>
-
-
-
-
-
-
+<div class="blockquote-wrapper">
+  <div class="blockquote">
+    <h1>
+     Intuitive design happens when <span style="color:#ffffff">current knowledge</span> is the same as the <span style="color:#ffffff">target knowledge.</span>
+     </h1>
+    <h4>&mdash;Jared Spool<br><em>Web Site Usability: A Designer's Guide</em></h4>
+  </div>
+</div>
 
 
 

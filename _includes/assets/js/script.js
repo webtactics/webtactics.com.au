@@ -1,5 +1,4 @@
-
-  const toggleButton = document.querySelector('.toggle-nav');
+const toggleButton = document.querySelector('.toggle-nav');
   const offcanvasNav = document.querySelector('.offcanvas');
   const closeNavButton = document.querySelector('.close-nav');
   
@@ -7,11 +6,7 @@
     offcanvasNav.classList.toggle('open');
     toggleButton.classList.toggle('active');
   });
-
-  closeNavButton.addEventListener('click', function() {
-    closeOffcanvasNav();
-  });
-
+  
   function closeOffcanvasNav() {
     offcanvasNav.classList.remove('open');
     toggleButton.classList.remove('active');
@@ -34,52 +29,22 @@
   });
   
 
-  const header = document.querySelector('.topbar');
-  const scrollWatcher = document.createElement('div');
-
-  scrollWatcher.setAttribute('data-scroll-watcher', '');
-  header.before(scrollWatcher);
-
-  const navObserver = new IntersectionObserver((entries) => {
-    header.classList.toggle('scrolled', !entries[0].isIntersecting)
-
-  }, {rootMargin: "-150px 0px 0px 0px"});
-  navObserver.observe(scrollWatcher)
 
 
-  const faders = document.querySelectorAll(".fade-in");
-  const sliders = document.querySelectorAll(".slide-in");
+  document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 
 
-  const appearOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px -200px 0px"
-  };
 
-  const appearOnScroll = new IntersectionObserver(function(
-    entries,
-    appearOnScroll
-  ) {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) {
-        return;
-      } else {
-        entry.target.classList.add("appear");
-        appearOnScroll.unobserve(entry.target);
-      }
-    });
-  },
-  appearOptions);
+// Mobile menu toggle
 
-  faders.forEach(fader => {
-    appearOnScroll.observe(fader);
-  });
 
-  sliders.forEach(slider => {
-    appearOnScroll.observe(slider);
-  });
 
+// Accordion
+
+
+
+// toggle
 
 
 

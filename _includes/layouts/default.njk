@@ -1,43 +1,54 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en" name="top" lang="en" style="scroll-behavior:smooth" >
 
 {% include "components/head.njk" %}
 
-{% block header %}
-<body class=" internal {{ class }} " >
+	
+<body class=" {{ class }} " >
 {% include "components/header.njk" %}
 {% include "components/off-canvas.njk" %}
+
+{% block hero %} 
+{% if page.url == "/contact/" %}
+{% include "components/hero-contact.njk" %}
+{% elif page.url == "/testimonials/" %}
+{% include "components/hero-testimonials.njk" %}
+{% elif page.url == "/media-training/" %}
+{% include "components/hero-media-training.njk" %}
+{% elif page.url == "/about/" %}
+{% include "components/hero-about.njk" %}
+{% else %}
+{% include "components/hero.njk" %}
+{% endif %}
 {% endblock %}
-  {% block hero %}
-  {% include "components/hero-home.njk" %}
-  {% endblock %}
 
 <div class="container">
-{% block content %}
-<main class="content">  
-{{ layoutContent | safe }}
-</main>
-</div>
-{% endblock %}
-<section class="sectioncta">  
-<div class="cta content fade-in"> 
-{% include "components/cta.html" %}
-</div>
-</section>
-<section class="sectionpartners"> 
-{% include "components/global/partners.html" %}
-</section>
 
+{% block content %} 
+<main class="content"> 
+<div class="caption-text"><h1><span>{{ title }}</span></h1></div> 
+<div class="grid-2-columns-2x1">
+
+<div class="textwrapper">
+{{ layoutContent | safe }}
+</div>
+<div class="sidebarwrapper">
+<aside>
+{% set postslist = collections.testimonials | reverse %}
+{% include "components/postslist-slick.njk" %}
+</aside>
+</div>
+
+</div>
+</main>
+{% endblock %}
+</div>
 
 <footer class="footernavwrapper"> 
-<div class="footernavfullwidth">  
+<div class="footernav">  
 {% include "components/nav-footer.njk" %}
 </div>
-<div class="footerdetails"> 
-{% include "components/footer.njk" %}
-</div>
 </footer>
-
 
 
 {% include "components/javascript.njk" %}
