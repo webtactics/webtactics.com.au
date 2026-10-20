@@ -204,6 +204,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .h1, h1 {
   font-size: calc(2rem + 1vw); 
   }
+
+ .content.home .h1, .content.home h1 {
+  font-size: calc(3rem + 1vw); 
+    color: var(--black);
+  }
   
 .h2, h2 {
   font-size: calc(1.6rem + 1vw); 

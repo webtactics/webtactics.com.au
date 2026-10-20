@@ -13,4 +13,4 @@ eleventyNavigation:
   order: 0
 ---
 
-## Webtactics develop fast-loading, easy-to-use, responsive websites, and help companies to be found, shared, understood and liked, online. ##
+# Webtactics develop fast-loading, easy-to-use, responsive websites, and help companies to be found, shared, understood and liked, online. #
