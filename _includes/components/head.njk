@@ -11,16 +11,16 @@
 
 
 <title>{{ title or metadata.title }} - {{ metadata.title }}</title>
-<link rel="canonical" href="https://thirdavenue.com.au{{ page.url or post.url or permalink }}" />
+<link rel="canonical" href="https://webtactics.com.au{{ page.url or post.url or permalink }}" />
 <meta name="description" content="{{ description or metadata.description or eleventyComputed.description }}" />
 <meta property="og:title" content="{{ title or metadata.title }}" />
 <meta property="og:description" content="{{ description or metadata.description or eleventyComputed.description }}" />
 <meta property="og:image" content="{{ image or metadata.image or eleventyComputed.image }}" />
-<meta property="og:url" content="https://thirdavenue.com.au{{ page.url or post.url or permalink }}" />
+<meta property="og:url" content="https://webtactics.com.au{{ page.url or post.url or permalink }}" />
 
 
 {% set css %}
-    {% include "assets/css/thirdavenue-grid.css" %}
+    {% include "assets/css/webtactics-grid.css" %}
     {% include "assets/css/slick.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
