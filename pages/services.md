@@ -8,7 +8,7 @@ date: 2024-03-11
 permalink: /services/
 eleventyNavigation:
   key: Services
-  order: 3
+  order: 2
 ---
 
 
