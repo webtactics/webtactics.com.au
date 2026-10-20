@@ -246,7 +246,15 @@ padding:0;}
   min-height: 400px;
   }
   
-
+  .content.home {
+    margin: 8rem auto 0 auto;
+    padding: 0;
+    z-index: 2;
+    width: calc(100vw - 10em);
+    max-width: 800px;
+    min-height: 200px;
+    }
+    
   .quote.content {
     margin: 8rem auto 0 auto;
     padding: 0;
